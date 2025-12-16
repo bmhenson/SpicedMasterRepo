@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://vitejs.dev/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spiced: People Operations for Scale-ups</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              spiced: {
+                charcoal: '#36312C',
+                paprika: '#C1442E',
+                turmeric: '#ECA400',
+                parchment: '#F4F1EA',
+                white: '#FFFFFF',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              heading: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling for anchor links */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-spiced-parchment text-spiced-charcoal antialiased">
+    <div id="root"></div>
+  </body>
+</html>
